@@ -1,0 +1,42 @@
+{
+  "name": "tsuyu",
+  "version": "0.0.1",
+  "description": "A lightweight AI assistant framework written in JavaScript and designed to be API-compatible with Expl0dingCat's Ame.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parabirb/Tsuyu.git"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "parabirb",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/parabirb/Tsuyu/issues"
+  },
+  "homepage": "https://github.com/parabirb/Tsuyu#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.40",
+    "@langchain/core": "^0.1.48",
+    "@xenova/transformers": "^2.16.0",
+    "better-sse": "^0.11.0",
+    "body-parser": "^1.20.2",
+    "closevector-node": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "express-busboy": "^10.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "langchain": "^0.1.28",
+    "localtunnel": "^2.0.2",
+    "node-llama-cpp": "^2.8.8",
+    "wavefile": "^11.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+models
+modules
+build
+config.json
+memory
+input.wav
+ame_speech.wav
